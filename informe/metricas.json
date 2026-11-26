@@ -1,0 +1,50 @@
+{
+  "umbral": 0.5097023376315192,
+  "accuracy": 0.9991677839937122,
+  "precision_maliciosa": 0.9994903809402471,
+  "recall_malicioso": 0.9993630573248408,
+  "f1_maliciosa": 0.9994267150773934,
+  "roc_auc": 0.9999424560054057,
+  "pr_auc": 0.9999774474020324,
+  "matriz_confusion": [
+    [
+      5921,
+      8
+    ],
+    [
+      10,
+      15690
+    ]
+  ],
+  "verdaderos_negativos": 5921,
+  "falsos_positivos": 8,
+  "falsos_negativos": 10,
+  "verdaderos_positivos": 15690,
+  "reporte_clases": {
+    "BENIGNO": {
+      "precision": 0.9983139436857191,
+      "recall": 0.9986506999494013,
+      "f1-score": 0.9984822934232715,
+      "support": 5929.0
+    },
+    "MALICIOSO": {
+      "precision": 0.9994903809402471,
+      "recall": 0.9993630573248408,
+      "f1-score": 0.9994267150773934,
+      "support": 15700.0
+    },
+    "accuracy": 0.9991677839937122,
+    "macro avg": {
+      "precision": 0.9989021623129831,
+      "recall": 0.999006878637121,
+      "f1-score": 0.9989545042503325,
+      "support": 21629.0
+    },
+    "weighted avg": {
+      "precision": 0.9991678927770358,
+      "recall": 0.9991677839937122,
+      "f1-score": 0.9991678276583131,
+      "support": 21629.0
+    }
+  }
+}

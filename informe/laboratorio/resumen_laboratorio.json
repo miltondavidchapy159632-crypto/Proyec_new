@@ -1,0 +1,46 @@
+{
+  "modelo": "modelos/modelo_ids.joblib",
+  "umbral": 0.5097023376315192,
+  "fecha_analisis": "2026-11-26T01:40:29.341863+00:00",
+  "casos": {
+    "normal": {
+      "csv_origen": "datos/procesados/normal/normal.pcap_Flow.csv",
+      "csv_predicciones": "informe/laboratorio/normal_predicciones.csv",
+      "flujos": 10,
+      "benignos": 10,
+      "maliciosos": 0,
+      "probabilidad_media": 0.13550836825021895,
+      "probabilidades": [
+        0.237161,
+        0.240255,
+        0.236922,
+        0.241153,
+        0.238073,
+        0.044148,
+        0.03065,
+        0.03065,
+        0.03065,
+        0.025423
+      ],
+      "caracteristicas_esperadas": 78,
+      "caracteristicas_faltantes_maximas": 0
+    },
+    "escaneo": {
+      "csv_origen": "datos/procesados/escaneo/escaneo.pcap_Flow.csv",
+      "csv_predicciones": "informe/laboratorio/escaneo_predicciones.csv",
+      "flujos": 5,
+      "benignos": 2,
+      "maliciosos": 3,
+      "probabilidad_media": 0.46930233551642947,
+      "probabilidades": [
+        0.238421,
+        0.609885,
+        0.599885,
+        0.570501,
+        0.32782
+      ],
+      "caracteristicas_esperadas": 78,
+      "caracteristicas_faltantes_maximas": 0
+    }
+  }
+}

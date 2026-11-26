@@ -1,0 +1,49 @@
+# Python y cachés
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Editores y sistema operativo
+.vscode/
+.idea/
+Thumbs.db
+Desktop.ini
+
+# Secretos y configuración local
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+
+# Máquinas virtuales e instaladores
+vm/
+*.ova
+*.vdi
+*.vmdk
+*.exe
+*.zip
+*.7z
+
+# Dataset original y derivados grandes
+datos/originales/
+datos/procesados/dataset_listo.csv
+
+# CICFlowMeter de terceros y binarios compilados
+herramientas/CICFlowMeter/
+herramientas/CICFlowMeter-instalado/
+
+# Archivos generados o redundantes
+datos/demo/cicflow_prueba/
+datos/demo/alertas_demo.csv
+informe/evaluacion_muestra/
+logs/
+*.log
+
+# Capturas personales de escritorio
+/Captura de pantalla *.png
